@@ -1,0 +1,20 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "Dynamically rendered restaurant homepage Live: WIP # Overview This project is made with purpose of practicing DOM manipulation and using webpack. # Problem Build a restaurant homepage, user can switch tabs (menu, contacts, etc.) and see content of each tab.  # Status Started 11.04.24 Finished WIP # Conclusion WIP I learned:",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
