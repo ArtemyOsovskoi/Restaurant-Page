@@ -1,5 +1,5 @@
-export function homepage() {
-    const content = document.querySelector('#content');
+export default function homepage() {
+    const content = document.getElementById('#content');
 
     const header = document.createElement('h1');
     header.innerText = 'Bookhouse Cafe';
@@ -26,11 +26,15 @@ export function homepage() {
     footer.innerText = 'Copyright © artemy.o';
     footer.setAttribute('class', 'footer');
 
-    content.appendChild(header, headline, description, invitation, footer);
+    content.appendChild(header);
+    content.appendChild(headline);
+    content.appendChild(description);
+    content.appendChild(invitation);
+    content.appendChild(footer);
 
     return header, headline, description, invitation, footer
 }
 
 export function consoleText() {
-    console.log('It worked');
-}
+    console.log("Homepage Module Works!");
+};
