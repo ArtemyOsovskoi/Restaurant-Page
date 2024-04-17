@@ -1,14 +1,14 @@
 export default function homepage() {
-    console.log('homepage func tesing');
-
+    console.log('homepage func TTTESTING');
+    
     const content = document.getElementById('content');
-
-    //Header
+    
+    /* //Header
     const header = document.createElement('h1');
-    const headerNode = document.createTextNode("Bookhouse Cafe");
+    const headerNode = document.createTextNode("☕ 📖 Bookhouse Cafe");
     header.appendChild(headerNode);
     content.appendChild(header);
-    header.setAttribute('class', 'header');
+    header.setAttribute('class', 'header'); */
 
     //Headline
     const headline = document.createElement('h2');
@@ -16,6 +16,7 @@ export default function homepage() {
     headline.appendChild(headlineNode);
     content.appendChild(headline);
     headline.setAttribute('class', 'headline');
+    headline.style.textAlign = 'center';
 
     //Description
     const description = document.createElement('p');
@@ -40,8 +41,23 @@ export default function homepage() {
 
     //Footer
     const footer = document.createElement('footer');
-    const footerNode = document.createTextNode('Copyright © artemy.o');
+    const footerNode = document.createTextNode('Copyright © ');
     footer.appendChild(footerNode);
-    content.appendChild(footer);
+    document.body.appendChild(footer);
     footer.setAttribute('class', 'footer');
+/*     footer.setAttribute('href', 'https://github.com/ArtemyOsovskoi');
+ */    footer.style.color = 'ivory';
+    footer.style.background = 'rgba(52, 45, 45, 0.26)';
+    footer.style.position = 'fixed';
+    footer.style.bottom = '0';
+    footer.style.textAlign = 'center';
+    footer.style.width = '100%';
+    footer.style.padding = '0.6rem';
+
+    const footerLink = document.createElement('a');
+    const linkNode = document.createTextNode('artemy.o');
+    footerLink.setAttribute('href', 'https://github.com/ArtemyOsovskoi');
+    footerLink.style.color = 'ivory';
+    footerLink.appendChild(linkNode);
+    footer.appendChild(footerLink);
 }
