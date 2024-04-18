@@ -1,6 +1,4 @@
 export default function menu() {
-    console.log('I am the Menu Page');
-
     const content = document.getElementById('content');
 
     //menu header
@@ -97,4 +95,4 @@ export default function menu() {
     content.appendChild(muffin);
     muffin.setAttribute('class', 'muffin');
     muffin.style.textAlign = 'center';
-}
+};

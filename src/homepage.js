@@ -17,6 +17,7 @@ export default function homepage() {
     content.appendChild(headline);
     headline.setAttribute('class', 'headline');
     headline.style.textAlign = 'center';
+    headline.style.color = '#d19d58';
 
     //Description
     const description = document.createElement('p');
