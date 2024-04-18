@@ -57,7 +57,8 @@ export default function homepage() {
     const footerLink = document.createElement('a');
     const linkNode = document.createTextNode('artemy.o');
     footerLink.setAttribute('href', 'https://github.com/ArtemyOsovskoi');
-    footerLink.style.color = 'ivory';
+    footerLink.style.color = '#d19d58';
+    footerLink.style.textDecoration = 'none';
     footerLink.appendChild(linkNode);
     footer.appendChild(footerLink);
 }
