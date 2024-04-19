@@ -12,6 +12,7 @@ Finished 18.04.24
 I learned: 
 - working with Webpack;
 - working with Modules;
+- DOM manipulation through JS;
 - some new css styling;
 
 
