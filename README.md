@@ -1,16 +1,17 @@
 # Restaurant-Page
 Dynamically rendered restaurant homepage
-Live: WIP
+Live: https://artemyosovskoi.github.io/Restaurant-Page/ 
 # Overview
 This project is made with purpose of practicing DOM manipulation and using webpack.
 # Problem
 Build a restaurant homepage, user can switch tabs (menu, contacts, etc.) and see content of each tab. 
 # Status
 Started 11.04.24
-Finished WIP
+Finished 18.04.24
 # Conclusion
-WIP
 I learned: 
-
+- working with Webpack;
+- working with Modules;
+- some new css styling;
 
 
